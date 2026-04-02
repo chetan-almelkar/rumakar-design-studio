@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luxury Interior Project | Rumakar Design Studio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <nav id="nav" class="scrolled">
+    <img src="assets/logo.png" alt="Rumakar Design Studio Logo" onclick="window.location.href='index.html'" style="cursor: pointer;">
+    
+    <!-- Mobile Hamburger Menu Icon -->
+    <div class="menu-toggle" id="mobile-menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+
+    <!-- Navigation Links -->
+    <ul id="nav-list">
+      <li onclick="window.location.href='index.html'">Back to Home</li>
+    </ul>
+  </nav>
+</header>
+
+<div style="margin-top: 100px;"></div>
+
+<!-- PROJECT DETAILS SECTION -->
+<section class="section fade-in-load">
+  <h2>Luxury Interior Project</h2>
+  <h3 class="service-subtitle" style="margin-bottom: 40px; color: #555;">Pune, Maharashtra</h3>
+  
+  <p style="text-align: center; max-width: 800px; margin: 0 auto 50px auto; color: #555; line-height: 1.8;" class="service-text">
+    A seamless blend of modern architectural structuring and artisanal interior aesthetics. This project focused on open spatial flow, maximizing natural light, and incorporating bespoke material finishes throughout the residence. Click any image to enlarge.
+  </p>
+
+  <!-- Image gallery for specific project (Add as many as you want) -->
+  <div class="image-gallery">
+    <img src="assets/portfolio-2.jpg" alt="View 1" class="reveal">
+    <img src="assets/portfolio-2a.jpg" alt="View 2" class="reveal">
+    <img src="assets/portfolio-2b.jpg" alt="View 3" class="reveal">
+    <img src="assets/portfolio-2c.jpg" alt="View 4" class="reveal">
+    <img src="assets/portfolio-2d.jpg" alt="View 5" class="reveal">
+    <img src="assets/portfolio-2e.jpg" alt="View 6" class="reveal">
+  </div>
+  
+  <div style="text-align: center; margin-top: 60px;">
+    <button onclick="window.location.href='index.html#projects'" class="btn-primary" style="padding: 12px 25px; border-radius: 5px; background: #2c4033; color: #fff; cursor: pointer; border: none; font-size: 16px;">Back to Portfolio</button>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>© 2026 Rumakar Design Studio</footer>
+
+<!-- LIGHTBOX MODAL (For clicking images) -->
+<div id="lightbox" class="lightbox">
+  <span class="lightbox-close">&times;</span>
+  <img class="lightbox-content" id="lightbox-img" alt="Enlarged Project View">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
