@@ -141,7 +141,7 @@ nav.scrolled {background:#fff; box-shadow:0 4px 12px rgba(0,0,0,0.1);}
 }
 .image-gallery img {
   width: 100%;
-  max-width: 350px; 
+  max-width: 400px; 
   height: 250px;
   object-fit: cover; 
   border-radius: 10px;
